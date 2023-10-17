@@ -1,4 +1,4 @@
-name: LVAPI Docker Publish
+name: LVS Docker Publish
 on:
   push:
     branches:
