@@ -7,7 +7,7 @@ interface PingData {
     payload?: string[];
 }
 
-@Route("/ping")
+@Route("logger/ping")
 export default class PingController {
 
 

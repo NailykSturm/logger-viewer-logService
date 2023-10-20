@@ -1,6 +1,6 @@
 import { Route, Get } from "tsoa";
 
-@Route('/health')
+@Route('logger/health')
 export default class HealthController {
 
     private static instance: HealthController;
