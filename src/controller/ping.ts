@@ -23,7 +23,7 @@ export default class PingController {
     @Get('/')
     public async getMessage(): Promise<PingData> {
         return {
-            message: "hello",
+            message: "Logger ping",
         };
     }
 
