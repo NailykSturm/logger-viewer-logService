@@ -5,11 +5,12 @@ import swaggerUi from "swagger-ui-express";
 
 import router from "./routes";
 import corsConfig from "./utils/cors";
+import env from "./utils/load_env";
 
-const PORT = process.env.PORT || 3660;
+const PORT = env.PORT;
 
 const app: Application = express();
-app.use(cors(corsConfig));
+// app.use(cors(corsConfig));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));

@@ -7,6 +7,6 @@ export default {
         "Accept",
         "X-Access-Token",
     ],
-    credentials: true,
-    methods: "GET,PUT,POST,DELETE",
+    // credentials: true,
+    // methods: "GET,PUT,POST,DELETE",
 } as CorsOptions;
